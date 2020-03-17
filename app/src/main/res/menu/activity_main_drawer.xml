@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_punch"
+            android:icon="@drawable/ic_time"
+            android:title="Punch In/Out" />
+        <item
+            android:id="@+id/nav_timeoff"
+            android:icon="@drawable/ic_timeoff"
+            android:title="Time Off" />
+        <item
+            android:id="@+id/nav_timecards"
+            android:icon="@drawable/ic_timecard"
+            android:title="Time Cards" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="My Notifications" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="My Notifications" />
+    </group>
+    </menu>
